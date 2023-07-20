@@ -1,0 +1,64 @@
+body {
+    background-color: aqua;
+}
+#pokedex {
+    background-image: url('imagens/pokedex.png');
+    height: 600px;
+    width: 300px;
+    margin: auto;
+    background-attachment: scroll;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+#procurar {
+    top: 62%;
+    left: 11%;
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-indent: 5px;
+}
+.arrow {
+    font-size: 2.4em;
+    color: rgb(203, 203, 203);
+    text-shadow: 2px 2px 2px black;
+    cursor: pointer;
+}
+.arrow:active {
+    font-size: 2.2em;
+    text-shadow: none;
+}
+#flecha-1 {
+    position: absolute;
+    top: 75%;
+    left: 11%;
+}
+#flecha-2 {
+    position: absolute;
+    top: 75%;
+    left: 25%;
+}
+.pokemons {
+    height: 114px;
+    width: 178px;
+    position: absolute;
+    top: 33%;
+    left: 16%;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#pokemon-1 {
+    background-image: url('imagens/snorlax.gif');
+}
+#pokemon-2 {
+    background-image: url('imagens/sprite.gif');
+}
+#pokemon-3 {
+    background-image: url('imagens/pikachu.gif');
+}
