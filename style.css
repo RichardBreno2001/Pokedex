@@ -12,6 +12,7 @@ body {
     background-position: center center;
     position: relative;
 }
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 #procurar {
     top: 62%;
     left: 11%;
@@ -22,6 +23,7 @@ body {
     font-size: 1.2em;
     font-weight: bolder;
     text-indent: 5px;
+    font-family: 'Cookie', cursive;
 }
 .arrow {
     font-size: 2.4em;
@@ -61,4 +63,42 @@ body {
 }
 #pokemon-3 {
     background-image: url('imagens/pikachu.gif');
+}
+#btn_procurar {
+    position: absolute;
+    top: 71%;
+    left: 46%;
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    font-family: 'Cookie', cursive;
+}
+#p_nome {
+    color: rgb(78, 77, 77);
+    position: absolute;
+    top: 49%;
+    left: 24%;
+    font-size: 1.5em;
+    font-family: 'Cookie', cursive;
+}
+#tabela {
+    width: 300px;
+    margin: auto;
+    margin-top: -50px;
+
+}
+caption {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+table {
+    border: 1px solid black;
+    margin: auto;
+}
+table > tbody > tr > td {
+    border: 1px solid red;
+    color: black;
+}
+table > thead > tr > th {
+    border: 2px solid rgb(244, 12, 12);
 }

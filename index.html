@@ -10,12 +10,40 @@
 </head>
 <body>
     <div id="pokedex">
-        <div class="pokemons" id="pokemon-1">
-
-        </div>
-        <input type="text" id="procurar" placeholder="Nome ou número">
-        <i class="bi bi-caret-left-square-fill arrow" id="flecha-1"></i>
-        <i class="bi bi-caret-right-square-fill arrow" id="flecha-2"></i>
+        <p id="p_nome">Snorlax-1</p>
+        <form method="get" autocomplete="off">
+            <div class="pokemons" id="pokemon-1">
+            </div>
+            <input type="text" id="procurar" placeholder="Nome ou número">
+            <i class="bi bi-caret-left-square-fill arrow" id="flecha-1"></i>
+            <i class="bi bi-caret-right-square-fill arrow" id="flecha-2"></i>
+            <input type="submit" id="btn_procurar" value="procurar">
+        </form>
+    </div>
+    <div id="tabela">
+        <table>
+            <caption>Pokemons presentes na pokedex</caption>
+            <thead>
+                <tr>
+                    <th>Nome do pokemon</th>
+                    <th>número</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Snorlax</td>
+                    <td>01</td>
+                </tr>
+                <tr>
+                    <td>Growlithe</td>
+                    <td>02</td>
+                </tr>
+                <tr>
+                    <td>Pikachu</td>
+                    <td>03</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </body>
 </html>
